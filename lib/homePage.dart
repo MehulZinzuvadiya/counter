@@ -46,13 +46,13 @@ class _HomePageState extends State<HomePage> {
                   });
                 },
                 child: Icon(Icons.account_box)),
-            InkWell(
-                onTap: () {
-                  setState(() {
-                    i = i * 8;
-                  });
-                },
-                child: Icon(Icons.add_card)),
+            // InkWell(
+            //     onTap: () {
+            //       setState(() {
+            //         i = i * 8;
+            //       });
+            //     },
+            //     child: Icon(Icons.add_card)),
           ],
         ),
         body: Center(
